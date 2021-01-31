@@ -1,0 +1,221 @@
+@font-face {
+   font-family: "Banny";
+   src: url("../fonts/Banny-BoldRound.woff2") format("woff2"), url("../fonts/Banny-BoldRound.woff") format("woff");
+   font-weight: bold;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: "Open Sans";
+   src: url("../fonts/OpenSans-Regular.woff2") format("woff2"), url("../fonts/OpenSans-Regular.woff") format("woff");
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: "Open Sans";
+   src: url("../fonts/OpenSans-Bold.woff2") format("woff2"), url("../fonts/OpenSans-Bold.woff") format("woff");
+   font-weight: bold;
+   font-style: normal;
+   font-display: swap;
+}
+
+/* Обнуляющие стили */
+*,
+*::before,
+*::after {
+   margin: 0;
+   padding: 0;
+   border: 0;
+}
+li {
+   list-style: none;
+}
+a,
+a:visited {
+   text-decoration: none;
+}
+a:hover {
+   text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-weight: inherit;
+   font-size: inherit;
+}
+img {
+   vertical-align: top;
+}
+.nav ul li a {
+   font-weight: 700;
+   font-size: 12px;
+   color: black;
+   text-transform: uppercase;
+}
+body {
+   font-family: "Open Sans";
+   line-height: 1;
+}
+.restaurant {
+   font-weight: 700;
+   font-size: 12px;
+   line-height: 116%;
+   letter-spacing: 6px;
+   text-align: center;
+}
+.hungry {
+   font-family: "Banny";
+   font-size: 96px;
+   text-align: center;
+}
+.aboutus {
+   font-size: 56px;
+   font-family: Banny;
+   text-transform: uppercase;
+   text-shadow: 10px -10px 10px #070303;
+   text-decoration: underline;
+   text-align: center;
+}
+.second .lorem {
+   text-align: center;
+   font-weight: 700;
+   text-shadow: -10px -10px 40px rgba(0, 0, 0, 0.404);
+}
+.second .text {
+   text-align: center;
+   font-size: 14px;
+   font-weight: 400;
+   text-shadow: 2px 2px 20px #060703;
+}
+.third__team {
+   line-height: 116%;
+   text-align: center;
+   font-weight: 700;
+   letter-spacing: 6px;
+   font-size: 12px;
+}
+.third__team__title {
+   font-size: 36px;
+   line-height: 48px;
+   text-shadow: -4px -4px 4px #000;
+   text-align: center;
+}
+.third__team__lorem {
+   font-weight: 700;
+   font-size: 18px;
+   text-align: center;
+   line-height: 155%;
+}
+.third__team__text {
+   line-height: 128%;
+   font-size: 14px;
+   font-weight: 400;
+   text-align: center;
+}
+.fourth__title {
+   word-spacing: 100px;
+   text-transform: uppercase;
+   text-align: center;
+   font-family: Banny;
+   font-size: 36px;
+   line-height: 133%;
+   text-shadow: -18px -18px 2px green;
+}
+.fourth__footer {
+   font-weight: 400;
+   font-size: 12px;
+   line-height: 100%;
+   text-align: center;
+   text-decoration: line-through;
+}
+.five__title {
+   letter-spacing: 6px;
+   font-size: 12px;
+   line-height: 116%;
+   text-align: center;
+   text-transform: uppercase;
+   font-weight: 700;
+}
+.five__title__3 {
+   font-size: 36px;
+   font-family: Banny;
+   line-height: 133%;
+   text-transform: uppercase;
+   font-weight: 700;
+   color: green;
+   text-align: center;
+   text-shadow: 10px 10px 3px #000;
+}
+.five__lorem {
+   font-size: 18px;
+   font-weight: 700;
+   line-height: 155%;
+   word-spacing: 8px;
+   letter-spacing: 9px;
+   white-space: nowrap;
+}
+.five__text__integer {
+   text-align: center;
+   line-height: 171%;
+   font-size: 14px;
+}
+.six__title {
+   text-transform: uppercase;
+   font-size: 36px;
+   line-height: 133%;
+   font-family: Banny;
+   text-align: center;
+}
+.six__lorem {
+   font-size: 18px;
+   font-weight: 700;
+   line-height: 155%;
+   text-align: center;
+}
+.six__title_2 {
+   word-spacing: 5px;
+   text-align: center;
+   line-height: 150%;
+   font-weight: 700;
+}
+.seven__title {
+   text-transform: uppercase;
+   letter-spacing: 6px;
+   font-size: 12px;
+   line-height: 116%;
+}
+.seven__footer {
+   text-align: center;
+   font-size: 12px;
+   text-transform: capitalize;
+}
+.eight .title {
+   text-transform: uppercase;
+   font-size: 46px;
+   font-weight: 700;
+   font-family: Banny;
+   text-align: center;
+   line-height: 200%;
+   text-shadow: -10px 10px 2px #000;
+}
+.eight__lorem {
+   text-transform: capitalize;
+   font-size: 14px;
+   line-height: 113%;
+   text-indent: 20px;
+}
+.footer {
+   font-size: 14px;
+   line-height: 200%;
+   font-weight: 400;
+   text-align: center;
+}
+.footer span {
+   font-weight: 700;
+}
